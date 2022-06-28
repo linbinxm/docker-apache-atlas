@@ -57,3 +57,8 @@ RUN cd /opt/apache-atlas-${VERSION} \
     && tail -f /opt/apache-atlas-${VERSION}/logs/application.log | sed '/AtlasAuthenticationFilter.init(filterConfig=null)/ q' \
     && sleep 10 \
     && /opt/apache-atlas-${VERSION}/bin/atlas_stop.py
+    
+    
+    
+    
+    
